@@ -113,7 +113,7 @@ async function fetchAndObfuscate(url, message) {
 async function obfuscate(content, message) {
 	message.channel.send('obfuscating...');
 	
-    let filename = createID(4);
+    let filename = createID(7);
 	let attachment = message.attachments.first();
 	const file = message.attachments.first()?.url;
 
